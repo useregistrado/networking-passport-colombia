@@ -22,7 +22,7 @@ const sponsorNames: Record<string, string> = {
   '7': 'Aws Community Day',
   '8': 'Nequi',
   '9': 'Nix',
-  '10': 'Prueba'
+  '10': 'Unal'
 };
 
 const Passport: React.FC<PassportProps> = ({ shortId }) => {
