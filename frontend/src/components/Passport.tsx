@@ -14,9 +14,15 @@ interface PassportProps {
 
 // Mapeo de IDs a nombres de sponsors
 const sponsorNames: Record<string, string> = {
-  '1': 'AWS Community Builders',
-  '2': 'AWS User Groups',
-  '3': 'AWS Heroes',
+  '2': 'AWS',
+  '3': 'Clouxter',
+  '4': 'AWS Heroes',
+  '5': 'Crubyt',
+  '6': 'Epam',
+  '7': 'Ingram',
+  '8': 'Nequi',
+  '9': 'Nix',
+  '10': 'Prueba'
 };
 
 const Passport: React.FC<PassportProps> = ({ shortId }) => {
