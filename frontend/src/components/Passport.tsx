@@ -67,7 +67,7 @@ const Passport: React.FC<PassportProps> = ({ shortId }) => {
         Pasaporte Digital
       </Text>
       <Text fontSize="sm" fontStyle="italic" mb={3} mt={0}>
-        ¡Llevas {passportData?.stamped_sponsors.length || 0} de 8 sellos!
+        ¡Llevas {passportData?.stamped_sponsors.length || 0} de 9 sellos!
       </Text>
       <Grid templateColumns="repeat(3, 1fr)" gap={4}>
         {allSponsors.map((sponsorId) => (
