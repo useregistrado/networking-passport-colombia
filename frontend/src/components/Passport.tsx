@@ -16,10 +16,10 @@ interface PassportProps {
 const sponsorNames: Record<string, string> = {
   '2': 'AWS',
   '3': 'Clouxter',
-  '4': 'AWS Heroes',
-  '5': 'Crubyt',
-  '6': 'Epam',
-  '7': 'Ingram',
+  '4': 'Crubyt',
+  '5': 'Epam',
+  '6': 'Ingram',
+  '7': 'Aws Community Day',
   '8': 'Nequi',
   '9': 'Nix',
   '10': 'Prueba'
@@ -31,7 +31,7 @@ const Passport: React.FC<PassportProps> = ({ shortId }) => {
   const fetchedRef = useRef(false);
 
   // Lista de todos los sponsors disponibles
-  const allSponsors = ['1', '2', '3'];
+  const allSponsors = ['2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
   useEffect(() => {
     if (fetchedRef.current) return;
@@ -67,7 +67,7 @@ const Passport: React.FC<PassportProps> = ({ shortId }) => {
         Pasaporte Digital
       </Text>
       <Text fontSize="sm" fontStyle="italic" mb={3} mt={0}>
-        ¡Llevas {passportData?.stamped_sponsors.length || 0} de 3 sellos!
+        ¡Llevas {passportData?.stamped_sponsors.length || 0} de 8 sellos!
       </Text>
       <Grid templateColumns="repeat(3, 1fr)" gap={4}>
         {allSponsors.map((sponsorId) => (
