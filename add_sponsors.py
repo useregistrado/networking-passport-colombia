@@ -16,20 +16,56 @@ REGION = "us-east-1"
 # Lista de sponsors a agregar
 SPONSORS = [
     {
-        "sponsor_id": "1",
-        "sponsor_name": "AWS Community Builders",
-        "key": str(uuid.uuid4()),
-        "required": True
-    },
-    {
         "sponsor_id": "2",
-        "sponsor_name": "AWS User Groups",
+        "sponsor_name": "AWS",
         "key": str(uuid.uuid4()),
         "required": True
     },
     {
         "sponsor_id": "3",
-        "sponsor_name": "AWS Heroes",
+        "sponsor_name": "Clouxter",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+    {
+        "sponsor_id": "4",
+        "sponsor_name": "Crubyt",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+        {
+        "sponsor_id": "5",
+        "sponsor_name": "Epam",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+    {
+        "sponsor_id": "6",
+        "sponsor_name": "Ingram",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+    {
+        "sponsor_id": "7",
+        "sponsor_name": "AWS Community Day",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+        {
+        "sponsor_id": "8",
+        "sponsor_name": "Nequi",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+    {
+        "sponsor_id": "9",
+        "sponsor_name": "Nix",
+        "key": str(uuid.uuid4()),
+        "required": True
+    },
+    {
+        "sponsor_id": "10",
+        "sponsor_name": "Prueba",
         "key": str(uuid.uuid4()),
         "required": True
     }
