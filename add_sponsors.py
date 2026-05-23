@@ -65,7 +65,7 @@ SPONSORS = [
     },
     {
         "sponsor_id": "10",
-        "sponsor_name": "Prueba",
+        "sponsor_name": "Unal",
         "key": str(uuid.uuid4()),
         "required": True
     }
