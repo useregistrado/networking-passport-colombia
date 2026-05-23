@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
             <Box bg="gray.700" px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'center'} position="relative">
                     <Image
-                        src={"/logocmday-01.svg"}
+                        src={"/logo.png"}
                         alt={"AWS Community Day Argentina Logo"}
                         height={45}
                         mx="auto"
